@@ -17,5 +17,11 @@ module.exports = {
     'react',
   ],
   'rules': {
+    'require-jsdoc': 'off',
+  },
+  'settings': {
+    'react': {
+      'version': 'detect',
+    },
   },
 };
