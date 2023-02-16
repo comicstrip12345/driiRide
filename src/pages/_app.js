@@ -1,13 +1,13 @@
 import React from 'react';
-import '@/styles/globals.css';
+import '@scss/variables.scss';
 import PropTypes from 'prop-types';
 
-export default function App({Component, pageProps}) {
+export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
 
 App.propTypes = {
-  Component: PropTypes.node.isRequired,
+  Component: PropTypes.instanceOf(Object).isRequired,
   pageProps: PropTypes.instanceOf(Object).isRequired,
 };
 

@@ -1,0 +1,25 @@
+// Color Variables
+:root {
+    --main: #827DFF;
+    --typo-bl: #000000;
+    --typo-wh: #FFFFFF;
+    --button: #FFB917;
+}
+
+// Typography Variables
+@font-face {
+    font-family: "Poppins-Black";
+    src: url('../fonts/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: "Poppins-Semibold";
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url('../fonts/Poppins-Regular.ttf');
+}
