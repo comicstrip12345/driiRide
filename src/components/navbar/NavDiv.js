@@ -2,7 +2,7 @@ import { Stack } from '@mui/material';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const NavPart = ({ children, ...props }) => {
+const NavDiv = ({ children, ...props }) => {
   return (
     <Stack {...props}>
       {children}
@@ -10,8 +10,8 @@ const NavPart = ({ children, ...props }) => {
   );
 };
 
-NavPart.propTypes = {
+NavDiv.propTypes = {
   children: PropTypes.instanceOf(Object).isRequired,
 };
 
-export default NavPart;
+export default NavDiv;
