@@ -11,9 +11,9 @@
     "precommit-fix": "eslint --fix ./src"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.7",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.9",
     "@next/font": "13.1.6",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",

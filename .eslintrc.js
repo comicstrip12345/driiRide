@@ -19,6 +19,10 @@ module.exports = {
   'rules': {
     'require-jsdoc': 'off',
     'object-curly-spacing': ['error', 'always'],
+    'linebreak-style': 0,
+    'quotes': ['error', 'single'],
+    'jsx-quotes': ['error', 'prefer-single'],
+    'max-len': ['error', { 'code': 100 }],
   },
   'settings': {
     'react': {
